@@ -9,6 +9,7 @@ body
     font-family: 'Roboto', sans-serif;
     color:  #3C2313;
     flex-wrap: wrap;
+    width: 100vw;
 }
 
 /*Estilos del header*/
@@ -140,14 +141,30 @@ section.productos
 }
 
 
-article div.nombre
+section.productos article div.nombre
+{
+    position: relative;
+    text-align: center;
+    width: 160px;
+    left: calc(50% - (160px / 2));
+    top: calc(-40px - (40px / 2) );   
+}
+
+/*article div.nombre
 {
     position: absolute;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+   align-content: space-around;
+   flex-wrap: wrap;
     bottom: 15px;
-    margin-left: 120px; 
+    margin-left: 120px;
+    width: 160px;
+    left: calc(50% - (260px / 2));
+    top: calc(320px - (40px / 2) );
    
-}
+}*/
 
 article div.nombre p.costo
 {
@@ -176,7 +193,7 @@ section.contactanos form
     
 }
 
-section.contactanos form  input
+section.contactanos form input
 {
     background-color: #3C2313;
     cursor: pointer;
@@ -322,7 +339,7 @@ footer section div.datos div{
 }
 
 @media (max-width: 1250px) {
-   main section.productos article{
+   main section.productos{
         width: 60%;
     }
 }
@@ -341,16 +358,10 @@ footer section div.datos div{
     }
 
     section.productos{
-        width: 95%;
-    }
-
-    section.productos article.producto{
-        
+        width: 90vw;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       width: 100vw;
+        flex-flow: column wrap;
+        align-content: center;
     }
        
     section.baja {
@@ -362,17 +373,25 @@ footer section div.datos div{
         width: 500px;
     }
 
-    section.baja div.padre div.hijo3{
+    section.baja div.padre div button[type="submit"]{
         font-size: 15px;
     }
 
-    footer {
+    footer section{
         display: flex;
         flex-direction: column;
+        align-content: center;
+        height: auto;
     }
 
-    footer section div.logo img{
+    footer section div.datos{
+        order: 1;
+    }
+
+    footer section div.logo{
+        align-self: center;
+        order: 0;
        margin-bottom: 5px;
-        position: static;
     }
 }
+
