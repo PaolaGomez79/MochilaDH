@@ -18,6 +18,8 @@ body
 
 .caja2
 {
+    position: fixed;
+    width: 100%;
     font-size: 40px;
     padding: 28px;
     background-color: #00669F;

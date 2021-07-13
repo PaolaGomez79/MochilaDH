@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;
+font-family: 'roboto'
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* estilos del header */
+
+header div.descuentos {
+    background-color: #1CD1B0;
+    height: 30px; 
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 5px;
+    }
+
+header  div.heroes {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-weight: bolder;
+    height: 80px;
+    font-size: 30px;
+    padding-left: 10px;
+    width: 100%;
+    z-index: 2;
+}
+
+header div span{
+    padding-left: 20px;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #001D2D;
+    color: white;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    padding: 10px 20px 10px 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form{
+    background-color:#00669F;
+    border-radius: 49px;   
+    color: #FFFFFF;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 66vw;
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+    position: relative;
+}
+
+
+form h1{
+    color:#FBFFFD;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+form div.título{
+    text-align: center;
+}
+
+form label{
+    display:block;
+    font-size: 20px;
+    margin: 15px  15px 0;
+    
+}
+
+form input{
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+}
+
+form  select{
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+}
+
+:required{
+    color: black;
+    font-size: 15px;
+}
+
+div.form textarea{
+    border-radius: 15px;
+    height: 200px;
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+form div.form{
+    display: inline-flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 50px;   
+}
+
+
+form div.form fieldset.poderes{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+form div.form fieldset div{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    flex-wrap: wrap;
+    
+}
+
+form div.form fieldset input{
+
+    height: 15px;
+    width: 15px;
+   
+}
+
+form div.form fieldset label{
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 12px;
+}  
+/*main form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    text-align: start;
+    margin-top:55px;
+    margin-bottom: 295px;
+    
+}
+
+main label{
+    color: #333333;
+    font-size: 70px;
+    font-family:sans-serif;
+    margin-top: 230px;
+    width: 40%;
+   
+}
+
+
+main form input{
+    border: 1px solid;
+    width: 40%;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 27px;
+}*/
+
+main form button{
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    height: 54px;
+    width: 40%;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    
+}
+
+ /* estilo del footer */
+
+footer p{
+    background-color: #00669F;
+    color: #FFF9F9;
+    height: 60px;
+    padding: 21px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+    
+    

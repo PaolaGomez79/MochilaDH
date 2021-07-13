@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;
+font-family: roboto;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* estilos del header */
+
+header div.descuentos {
+    background-color: #1CD1B0;
+    height: 30px; 
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 5px;
+    }
+
+header  div.heroes {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-weight: bolder;
+    height: 80px;
+    font-size: 30px;
+    padding-left: 10px;
+    width: 100%;
+    z-index: 2;
+}
+
+header div span{
+    padding-left: 20px;
+}
+
+/*Estilos del main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+    margin-bottom: 295px;
+    width: 100vw;
+} 
+
+h1:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(16, 172, 211);
+}
+
+input:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(16, 172, 211);
+    border-color:rgb(16, 172, 211);
+}   
+
+select:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(16, 172, 211);
+    border-color:rgb(16, 172, 211);
+}
+
+textarea:hover{
+    border-color:rgb(16, 172, 211);
+}
+
+button:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(16, 172, 211);
+    border-color:rgb(16, 172, 211);
+}
+
+div.enlace:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(16, 172, 211);
+}
+
+main form div{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    text-align: start;
+    margin-top:10px;
+}
+
+main h1{
+    color: #333333;
+    font-size: 70px;
+    font-family:sans-serif;
+}
+
+
+main form input{
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 27px;
+}
+
+main form div textarea{
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+main section.login form div button{
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    height: 45px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+section.login form div.enlace{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section form div a{
+    text-decoration: none;
+}
+
+main section.registro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main section.registro form div.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.registro form div{
+    display: flex;
+    flex-direction: row;
+}
+
+main section.registro form select{
+    font-size: 20px;
+    height: 50px;
+    width: 500px;
+    margin-top: 20px;
+    padding-left: 27px;
+}
+
+main section.registro form button{
+    border: none;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    width: 240px;
+    margin-top: 50px;
+}
+
+main section.registro form button[type="submit"]{
+    background-color: #1CD1B0;
+    margin-left: 10px;
+}
+
+main section.registro form button[type="reset"]{
+    background-color: #888888;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+ /* estilo del footer */
+
+footer p{
+    background-color: #00669F;
+    color: #FFF9F9;
+    height: 60px;
+    padding: 21px;
+    text-align: center;
+}
+
+
+    
+    

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header div{
+    padding-left: 44.4px;
+}
+
+.topHeader{
+    background-color: #D1891C;
+    font-size: 32px;
+}
+
+.bottomHeader{
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 47.8px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+main section{
+    position: relative;
+    width: 100vw;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-around;
+}
+
+section article.Batman{
+    width: 39.15%;
+    position: relative;
+}
+
+div.fondoBatman img{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    width: 100%;
+}
+
+div.corazón{
+    position: absolute;
+    top: 44.2px;
+    left: 44.2px;
+}
+
+article.Batman div.batman img{
+    border-radius: 50%;
+    position: absolute;
+    top: 14.74%;
+    left: 28%;
+    width: 44%;
+}
+
+.bottomFondoBatman{
+    background-color: #F3F3F3;
+    width: 100%;
+    margin-bottom: 122px;
+}
+
+div.bottomFondoBatman div span{
+    position: relative;
+    text-transform: uppercase;
+    top: 129px;
+    left: 172.8px;
+    right: 173.5px;
+    bottom: 395px;
+    width: 188.5px;
+    height: 54.6px;
+    font-size: 42.3px;
+}
+
+ div.bottomFondoBatman div.texto{
+    position: relative;
+    width: 475px;
+    height: 230px;
+    font-size: 24px;
+    top: 205px;
+    right: 29px;
+    left: 28.5px;
+    margin-bottom: 252.4px;
+}
+
+article.Batman div.bottomFondoBatman div button{
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 24px;
+    margin-left: 150px;
+    padding: 24px 70px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #00669F;
+}
+
+footer div p{
+    color: #FFF9F9;
+    font-size: 24px;
+    padding-top: 39.6px;
+    padding-bottom: 39.6px;
+    margin-left: 250px;
+}
+
+footer div img{
+    position: absolute;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-right: 38px;
+
+}

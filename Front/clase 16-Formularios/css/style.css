@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{margin: 0;padding: 0; box-sizing: border-box;
+font-family: 'roboto'
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* estilos del header */
+
+header div.descuentos {
+    background-color: #1CD1B0;
+    height: 30px; 
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: sticky;
+}
+
+header div.heroes {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bolder;
+    height:80px;
+    padding-left: 10px;
+    width: 100%;
+    z-index: 2;
+}
+
+header div span{
+    padding-left: 20px;
+}
+
+header div span.Harley{
+    font-size: 60px;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #001D2D;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    padding: 10px 20px 10px 0px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+  
+/* estilo del main */
+
+main section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+main section article{
+    position: relative;
+    display:inline-block;
+    width: 300px;
+    height: 529px; 
+    background-color: #F3F3F3;
+}
+
+main section article img.corazon{
+    position: absolute;
+    top: 15.87px;
+    left: 21px;
+}
+
+main section article img.foto{
+    position: relative; 
+    bottom: 64px;
+    left: 90px;
+    border-radius: 50%;
+}
+
+main section article div {
+    position: relative; 
+    bottom: 40px;
+    text-align: center;
+} 
+
+main section article h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align-last: center;
+    height: 35px;
+}
+
+main section article p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main section article div button.verMas{
+    position: relative;
+    top: 30px;
+    background: #00669F;
+    font-size: 15px;
+    border: none;
+    color: #F3F3F3;
+    padding: 15px 37px;
+}
+
+main section article div button.verMas a{
+    color: white;
+    text-decoration: none;
+}
+
+main.Harley{
+    background-image: url(../img/bg\ 1.png);
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+}
+ 
+main.Harley section{
+   margin-bottom: 100px;
+   margin-top: 150px;
+}
+
+main.Harley section div{
+    background-color: white;
+    width: 540px ;
+    height: 450px;
+    border-radius: 45px;
+    text-align: center;
+}
+
+main.Harley section div img.foto{
+    border-radius: 50%;
+    position: absolute;
+    width: 160px;
+    left: calc(50% - (160px / 2));
+    top: calc(130px - (160px / 2) );;
+}
+
+main.Harley section div img.corazón{
+    position: absolute;
+    background-color: red;
+    left: calc(33% - (38px / 2));
+    top: calc(210px - (38px / 2));
+    height: 34px;
+    width: 38px;
+}
+
+main.Harley section div h2{
+    margin-top: 71px;
+}
+
+main.Harley section div p{
+    font-size: 17px;
+    text-align: left;
+    padding: 10px 23px 15px;
+
+}
+
+main.Harley section div button{
+    background-color: #2C0187;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 540px;
+    height: 85px;
+    margin-top: 15px;
+}
+
+main.Harley section div button a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+    /* estilo del footer */   
+
+footer p{
+    background-color: #00669F;
+    color: #FFF9F9;
+    height: 60px;
+    padding: 21px;
+    text-align: center;
+}
+

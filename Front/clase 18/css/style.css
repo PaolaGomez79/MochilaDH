@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    color:  #3C2313;
+    flex-wrap: wrap;
+}
+
+/*Estilos del header*/
+
+.margenAltoA
+{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+}
+
+.margenAltoB 
+{
+    margin-left: 20px; 
+}
+
+div.margenBajo
+{
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 46px;
+}
+
+.fontwhite
+{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.fas fa-paw
+{
+    color: white;
+}
+
+a
+{
+   text-decoration: none;
+   color: white;
+}
+
+a:hover{
+    text-decoration: underline;   
+}
+ 
+/*Estilos del Main*/
+
+main section.banner1
+{
+  position:relative
+}
+
+section.banner1 img
+{
+   position: relative;
+   width: 100%;
+   height: 24%;
+   z-index: -1;
+}
+section.banner1 div.banner2
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 38%;
+    right: 22px;
+
+}
+
+ div.banner2 h1
+{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 35px;
+    margin-bottom: 12px;
+    padding: 10px;
+    text-align: center;
+    width:450px;  
+}
+
+section.banner1 div.banner2 button
+{
+    background: #F0A83E;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 15px 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.titulos
+{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 25px;
+    bottom: 49px;
+}
+
+div.titulos h2
+{
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+
+div.titulos p.variedad
+{
+    color: #666666;
+}
+
+section.productos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 70px 100px 78px; 
+    position: relative;   
+}
+
+
+article div.nombre
+{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    margin-left: 120px; 
+   
+}
+
+article div.nombre p.costo
+{
+    color:#F0A83E;
+}
+
+section.contactanos
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+section.contactanos h2
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section.contactanos form 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 450px;
+    
+}
+
+section.contactanos form  input
+{
+    background-color: #3C2313;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: none;
+    padding: 14px;
+}
+
+form input::placeholder{
+    color: white;
+    font-size: 9px;
+    text-align: left;
+}
+
+input:hover{
+    text-decoration: underline;
+text-decoration-color: white;
+}
+
+section.contactanos div.botones
+{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 75px;
+    
+}
+
+section.contactanos div.botones button[type="reset"] 
+{
+    margin-right: 4px;
+    background-color: #8A8787;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+section.contactanos div.botones button[type="submit"]
+{
+    margin-left: 4px;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+}
+
+section.baja
+{
+    background-color: #F0A83E;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 25px 45px 25px 25px;
+}
+
+section.baja div.padre
+{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+}
+
+section.baja div.padre div.hijo1
+{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+section.baja div.padre div input[type="email"]
+{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    color: #A0A0A0;
+    font-size: 9px;
+    padding: 10px 10px 10px 3px;
+    width: 300px;
+}
+
+section.baja div.padre div button[type="submit"]
+{
+    background-color: #3C2313;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 9px;
+    margin-left: 5px;
+    padding: 11px;
+}
+
+/*Estilos del footer*/
+
+footer
+{
+    background-color: #3C2313;
+}
+
+.fotlinpri
+{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.fotlinseg
+{
+    font-size: 10px;
+    color: #8A8787;
+}
+
+footer section{
+    padding: 10px 70px 0px 70px;
+    height: 240px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+footer section div.datos{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+footer section div.datos div{
+    margin-left: 30px;
+}
+
+.derecho
+{
+    background-color: #222222;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 1250px) {
+   main section.productos article{
+        width: 60%;
+    }
+}
+
+@media (max-width:730px) {
+
+    header div.margenAltoA{
+        display: none;
+    }
+
+
+    header div.margenBajo nav ul.fontwhite{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 100px;
+    }
+
+    section.productos{
+        width: 95%;
+    }
+
+    section.productos article.producto{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       width: 100vw;
+    }
+       
+    section.baja {
+        display: flex;
+        flex-wrap: wrap;
+    }  
+
+    section.baja div.padre{
+        width: 500px;
+    }
+
+    section.baja div.padre div.hijo3{
+        font-size: 15px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer section div.logo img{
+       margin-bottom: 5px;
+        position: static;
+    }
+}
